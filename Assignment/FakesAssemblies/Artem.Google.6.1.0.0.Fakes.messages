@@ -1,0 +1,63 @@
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.ZoomControlStyle: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.TravelMode: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.UnitSystem: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.MarkerAnimation: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.Serialization.PolylineOptionsConverter: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.ControlPosition: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for System.Collections.XtsCollection: type is sealed.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.JsUtil: type is sealed.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.Serialization.ColorJavaScriptConverter: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.Resources.Errors: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.MapType: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.MapTypeControlStyle: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.MarkerShapeType: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.NavigationControlStyle: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.ScaleControlStyle: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for Artem.Google.UI.StaticImageFormats: type is a value type.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>{379245D2-5533-43BD-99EB-CBA47F83E1FD}: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate stub for <>f__AnonymousType0`2: type is sealed.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.IScriptDataConverter: type is an interface.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.ZoomControlStyle: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.TravelMode: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.UnitSystem: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.MarkerAnimation: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMarkers+<>o__SiteContainera: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMarkers+<System.Web.UI.IExtenderControl.GetScriptDescriptors>d__2: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMarkers+<System.Web.UI.IExtenderControl.GetScriptReferences>d__6: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleCircle+<GetScriptDescriptors>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleCircle+<GetScriptReferences>d__4: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleCircle+<RaisePostBackEvent>o__SiteContainer8: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleGround+<GetScriptDescriptors>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleGround+<GetScriptReferences>d__4: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleGround+<RaisePostBackEvent>o__SiteContainer8: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleRectangle+<GetScriptDescriptors>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleRectangle+<GetScriptReferences>d__4: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleRectangle+<RaisePostBackEvent>o__SiteContainer8: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.Serialization.PolylineOptionsConverter: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleStreetViewPanorama+<GetScriptDescriptors>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleStreetViewPanorama+<GetScriptReferences>d__4: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.ControlPosition: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for System.Collections.XtsCollection: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.JsUtil+<GetConverters>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.Serialization.ColorJavaScriptConverter: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.Resources.Errors: type is not visible to exported or assembly(Artem.Google.6.1.0.0.Fakes).
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleDirections+<GetScriptDescriptors>d__0: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleDirections+<GetScriptReferences>d__4: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleDirections+<RaisePostBackEvent>o__SiteContainer8: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMap+<>o__SiteContainer9: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMap+<GetScriptDescriptors>d__1: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GoogleMap+<GetScriptReferences>d__5: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolygon+<GetScriptDescriptors>d__2: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolygon+<GetScriptReferences>d__6: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolygon+<RaisePostBackEvent>o__SiteContainera: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolyline+<GetScriptDescriptors>d__2: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolyline+<GetScriptReferences>d__6: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.GooglePolyline+<RaisePostBackEvent>o__SiteContainera: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.MapType: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.MapTypeControlStyle: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.MarkerShapeType: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.NavigationControlStyle: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.ScaleControlStyle: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for Artem.Google.UI.StaticImageFormats: type is an enum.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>{379245D2-5533-43BD-99EB-CBA47F83E1FD}: type is not supported because of internal limitations.
+Z:\Desktop\Assignment\Assignment\Fakes\Artem.Google.fakes : warning : Cannot generate shim for <>f__AnonymousType0`2: type is not supported because of internal limitations.

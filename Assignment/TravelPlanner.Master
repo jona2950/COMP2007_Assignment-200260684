@@ -1,0 +1,209 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TravelPlanner.master.cs" Inherits="Assignment.TravelPlanner" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Travel Planner</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- CSS styling for Google Maps API -->
+    <style type="text/css">
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://bootswatch.com/readable/bootstrap.min.css" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+
+    <!--jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+    <!-- Google Maps Javascript v3 API Browser API -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQN-X3UoQtLgYRJUGYjax4uXrFcTIfLoY&amp;libraries=places&signed_in=true"></script>
+
+
+</head>
+<!-- START of HTML body -->
+<body>
+    <form id="form1" runat="server">
+        <!--This is the div container for the NAVBAR -->
+        <div class="nav-container">
+            <!--START OF NAVBAR-->
+            <nav class="navbar navbar-default">
+                <!-- START of div with class "container-fluid" to better the rendering on mobile displays -->
+                <div class="container-fluid">
+                    <!-- START of div FOR navbar header -->
+                    <div class="nav navbar-header">
+                        <a class="navbar-brand" href="/default.aspx">
+                            <!-- Colorized characters for the webpage name, using span for css styling -->
+                            <div>
+                                <strong>
+                                    <span style="color: #040302;">D</span>
+                                    <span style="color: #80693d;">e</span>
+                                    <span style="color: #98814b;">r</span>
+                                    <span style="color: #b29677;">i</span>
+                                    <span style="color: #e7c9a8;">v</span>
+                                    <span style="color: #f4d6bc;">e</span>
+                                </strong>
+                            </div>
+                        </a>
+                        <!-- END of navbar header -->
+                    </div>
+                    <!-- start of navbar collapse -->
+                    <div class="collapse navbar-collapse">
+                        <!-- START of ul, to list links within the navbar -->
+                        <ul class="nav navbar-nav">
+                            <!-- START of li(s). To tag page directory for use with navbar -->
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" NavigateUrl="/member/sign/in.aspx" runat="server" Text="Sign In" ></asp:HyperLink>
+                            </li>
+                            <!-- to access the planning applcation -->
+                            <!-- Planet 'Plan-it' -->
+                            <li>
+                                <a href="/travel/planner.aspx">Plan-it</a>
+                            </li>
+                            <!-- to access user postings on topics -->
+                            <!-- A web page where the user can present a topic to it's users.-->
+                            <li>
+                                <a href="/user/u-topics.aspx">U-Topics</a>
+                            </li>
+                            <!-- for global page searching -->
+                            <!-- A web page where the user can present a topic to it's users.-->
+                            <li>
+                                <!-- START of navbar-form div -->
+                                <div class="navbar-form navbar-left" role="search">
+                                    <!-- This will be used as a quick search box -->
+                                    <!-- START of form-group div -->
+                                    <div class="form-group">
+                                        <!-- START of input-group div -->
+                                        <div class="input-group">
+                                            <asp:TextBox ID="txtBoxSearch" runat="server"
+                                                CssClass="form-control" placeholder="Search.."></asp:TextBox>
+
+                                            <!-- !!ATTENTION!! This is currently still being worked RETURN to finish feature -->
+                                            <!-- START of btn-group div -->
+                                            <div class="input-group-btn">
+                                                <!-- asp button to submit the text for searching thru database -->
+                                                <asp:Button ID="btnSearch" runat="server" type="submit"
+                                                    CssClass="btn btn-default" Text="Search" />
+                                                <!-- this will be adding other search parameters, to return a better search -->
+                                                <!-- data-toggle hooks this (button) element data automatically to the widget (ul) -->
+                                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Advanced Search</span>
+                                                </button>
+
+                                                <!-- !!ATTENTION!! -->
+                                                <!-- the lists for the button's dropdown menu -->
+                                                <!-- START of ul dropdown-menu -->
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Action</a></li>
+                                                    <li><a href="#">Another action</a></li>
+                                                    <li><a href="#">Something else here</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">Separated link</a></li>
+                                                    <!-- END of ul dropdown menu -->
+                                                </ul>
+                                                <!-- END of btn-group div -->
+                                            </div>
+                                            <!-- END of input-group div-->
+                                        </div>
+                                        <!-- END of form-group div -->
+                                    </div>
+                                    <!-- END of navbar-form div -->
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/information/about-us.aspx">About us</a>
+                            </li>
+                            <!-- END of li(s)-->
+                            <!-- EMD of ul -->
+                        </ul>
+                        <!-- to inform the user who they are currently signed in as -->
+                        <!-- START of user signed in div -->
+                        <div class="collapse navbar-collapse" id="bs-signedin-navbar-collapse-5">
+                            <!-- using asp hyperlink and label, user link and name can be changed upon different sign-in's -->
+                            <p class="navbar-text navbar-right">
+                                Signed in as
+                                <asp:HyperLink ID="HyperLink_UserProfile" runat="server" CssClass="navbar-link" NavigateUrl="#" Text="Guest">
+                                </asp:HyperLink>
+                            </p>
+                            <!-- END of user signed in div -->
+                        </div>
+                        <!-- END of navbar collapse -->
+                    </div>
+                    <!-- END of container-fluid -->
+                </div>
+                <!-- END of navbar, navbar-default -->
+            </nav>
+            <!-- END of navbar div -->
+        </div>
+
+        <!-- START of container div -->
+        <div class="container">
+            <!-- START of container-fluid div -->
+            <div class="container-fluid">
+                <!-- START of row-offcanvas div -->
+                <div class="row row-offcanvas row-offcanvas-right">
+                    <!-- START of contentPlaceHolder - Jumbotron -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderAnnounce" runat="server">
+
+                        <!-- END of contentPlaceHolder - Jumbotron -->
+                    </asp:ContentPlaceHolder>
+                    <!-- START of contentPlaceHolder - 1 -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        <!-- END of contentPlaceHolder - 1 -->
+                    </asp:ContentPlaceHolder>
+                    <!-- END of row-offcanvas div -->
+                </div>
+                <!-- END of container-fluid div -->
+            </div>
+            <!-- END of container div -->
+        </div>
+        <!-- START of container div -->
+        <div class="container">
+            <!-- START of container-fluid div -->
+            <div class="container-fluid">
+                <!-- START of contentPlaceHolder - 2 -->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+                    <!-- END of contentPlaceHolder - 2 -->
+                </asp:ContentPlaceHolder>
+                <!-- END of container-fluid div -->
+            </div>
+            <!-- END of container div -->
+        </div>
+
+        <!-- END of form - form1 -->
+    </form>
+
+    <footer class="panel-footer">
+        <div class="text-center ">
+            @2015 - Travel Planner
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery("a").filter(function () {
+                return this.innerHTML.indexOf("Delete") == 0;
+            }).click(function () {
+                return confirm("Are you sure you want to delete this record?");
+            });
+        });
+
+    </script>
+</body>
+</html>
